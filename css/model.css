@@ -1,0 +1,43 @@
+@charset "utf-8";
+/**
+ *Filename:    index.css
+ *Description: model css
+ *Version:     0.0.0(2018-10-10)
+ *Website:     
+ *Author:      frank
+ */
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #eee;
+}
+.content{
+	position: relative;
+	margin: 0 128px;
+}
+.content .content-title{
+	text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+.ibox{
+	margin-bottom: 20px;
+	padding: 20px;
+    background-color: #fff;
+}
+.ibox .ibox-title{
+	margin-top: 0;
+	border-bottom: 1px solid #ccc;
+}
+.ibox .ibox-body{
+    
+}
+.ibox .ibox-body .ibox-demo{
+    
+}
+.ibox .ibox-body pre{
+	margin: 0;
+	padding: 10px;
+    color: #bbb;
+    background-color: #555;
+}

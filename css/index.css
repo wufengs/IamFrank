@@ -1,120 +1,12 @@
+@charset "utf-8";
 /**
- * @author: frank
- * @date: 2018/08/13 pm
+ *Filename:    index.css
+ *Description: global css
+ *Version:     0.0.0(2018-10-10)
+ *Website:     
+ *Author:      frank
  */
+
 *{
-	margin: 0;
-	padding: 0;
-}
-body{
-	margin: 0;
-    line-height: 20px;
-    font-family: "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    color: #333;
-}
-
-/*logo*/
-#logoDiv{
-	text-align: center;
-    background-color: #99a6e2;
-}
-#logoDiv img{
-	height: 80px;
-}
-/*header*/
-#header{
-    width: 100%;
-	text-align: center;
-	background-color: #3d3c49;
-}
-#header .container{
-	margin-bottom: 0;
-}
-#header .container>li{
-    float: left;
-    padding: 16px 20px;
-    list-style: none;
-}
-#header .container>li:hover{
-    background-color: #99a6e2;
-}
-#header .container>li:after{
-	content: '';
-    display: block;
-	width: 0;
-	clear: both;
-}
-#header .container>li>a{
-	width: 100%;
-    font-size: 22px;
-    font-weight: 600;
-    color: #fff;
-    text-decoration: none;
-}
-/*主体*/
-#logMain{
-	background-color: #eee;
-	padding-bottom: 24px;
-}
-/*博客列表*/
-#logMain #blogList{
-	
-}
-#logMain #blogList .blog-box{
-	position: relative;
-	margin-top: 16px;
-    padding: 10px 20px;
-    border-radius: 4px;
-    background-color: #fff;
-    box-shadow: 0 0 16px #999;
-}
-#logMain #blogList .blog-box:hover{
-    box-shadow: 0 0 16px #333;
-}
-#logMain #blogList .blog-box .blog-box-title{
-    padding-bottom: 8px;
-	font-size: 20px;
-    color: #007046;
-}
-#logMain #blogList .blog-box .blog-box-body{
-	overflow: hidden;
-}
-#logMain #blogList .blog-box .box-img{
-	width: 100%;
-}
-#logMain #blogList .blog-box .box-content{
-	
-}
-#logMain #blogList .blog-box .blog-box-foot{
-	margin-top: 12px;
-    text-align: right;
-}
-/*介绍列表*/
-#logMain #adList{
-	
-}
-#logMain #adList .adbox{
-	position: relative;
-	margin-top: 16px;
-    padding: 10px 20px;
-    border-radius: 4px;
-    background-color: #fff;
-    box-shadow: 0 0 16px #999;
-}
-#logMain #adList .adbox:hover{
-    box-shadow: 0 0 16px #333;
-}
-
-
-/*底部*/
-#footer{
-	height: 50px;
-    line-height: 50px;
-	color: #fff;
-	background-color: #3d3c49;
-}
-#footer p{
-	margin-bottom: 2px;
-	text-align: center;
+	box-sizing: border-box;
 }
